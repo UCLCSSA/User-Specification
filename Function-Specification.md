@@ -23,6 +23,28 @@ News are displayed inside a scroll bar with speed 2s/time(Every two seconds scro
 This MUST contain CSSA activities. MAY contain other information if required.  
 ### 2.2.2 Scroll Bar   
 Scroll Bar SHOULD display pictures, each pictures represent an article.  
+### 2.2.3 When User press picture on the scroll bar  
+Full article SHOULD be displayed in a new page  
 
+## 2.3 Personal Timetable(todo What if in GUEST mode) 
+This part contains two components:
 
+1. Scroll bar which displays today's lectures  
+2. Button called "显示完整课表" in the bottom  
 
+Each lecture is displayed inside a block. The Scroll bar only move when user scroll it.  
+### 2.3 Block  
+This SHOULD include following information:  
+
+1. Start and End Time (1)  
+2. Lecture Room (2)  
+3. Lecture Name (3)  
+4. Lecture Format[Lecture, Problem Base Learning, Tutoring] (4)  
+
+-------------------------
+|    |                  |
+-    |-------------------
+| (1)|                  |
+-    |-------------------
+|    |                  |
+-----|-------------------
