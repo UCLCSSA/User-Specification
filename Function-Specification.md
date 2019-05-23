@@ -1,4 +1,4 @@
-# Terminology
+# 1.Terminology
 This specification uses the terms **MUST,SHOULD,MAY,MUST NOT, MAY NOT, SHOULD NOT,RECOMMENDED,OPTIONAL** as defined in RFC 2119[frc2119] and BCP 141. We also use the following terminology to specify the user states. When the following words are captialized or in the name of message types, they have specific defined meaning as follow:
 
 **WECHAT LOGIN:** Login through wechat api.  
@@ -10,18 +10,18 @@ This specification uses the terms **MUST,SHOULD,MAY,MUST NOT, MAY NOT, SHOULD NO
 **UCL:** University College London  
 **CSSA:** UCL Chinese Students and Scholars Association 
 
-# Functional Requirments   
-## Main Page  
-### Weather and Date  
+# 2.Functional Requirments   
+## 2.1 Main Page  
+### 2.1.1 Weather and Date  
 This part should contain two parts Date and the Weather. We use LOCAL TIMEZONE and LOCAL CITY.
-#### Weather Desciption  
+#### 2.1.1.1 Weather Desciption  
 Format: Weather + Highest Degree(Celsius) + Lowest(Celsius) + Suggest dressing  
 
-## News  
+## 2.2 News  
 News are displayed inside a scroll bar with speed 2s/time(Every two seconds scroll to the left once).  
-### Content  
+### 2.2.1 Content  
 This MUST contain CSSA activities. MAY contain other information if required.  
-### Scroll Bar   
+### 2.2.2 Scroll Bar   
 Scroll Bar SHOULD display pictures, each pictures represent an article.  
 
 
