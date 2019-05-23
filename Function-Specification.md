@@ -4,10 +4,10 @@ This specification uses the terms **MUST,SHOULD,MAY,MUST NOT, MAY NOT, SHOULD NO
 **WECHAT LOGIN:** Login through wechat api.  
 **UCL LOGIN:** Login through ucl.  
 **GUEST:** Neither use WECHAT LOGIN nor  use UCL LOGIN.  
-**USER:** Either WECHAT LOGIN or UCL LOGIN.
-**LOCAL TIMEZONE:** GMT0
-**LOCAL CITY:** London
-**UCL:** University College London
+**USER:** Either WECHAT LOGIN or UCL LOGIN.  
+**LOCAL TIMEZONE:** GMT0  
+**LOCAL CITY:** London  
+**UCL:** University College London  
 **CSSA:** UCL Chinese Students and Scholars Association 
 
 # Functional Requirments   
