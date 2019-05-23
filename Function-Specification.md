@@ -32,19 +32,45 @@ This part contains two components:
 1. Scroll bar which displays today's lectures  
 2. Button called "显示完整课表" in the bottom  
 
-Each lecture is displayed inside a block. The Scroll bar only move when user scroll it.  
-### 2.3 Block  
+Each lecture is displayed inside a block.  
+**The Scroll bar only move when user scroll it.**  
+### 2.3.1 Block  
 This SHOULD include following information:  
 
-1. Start and End Time (1)  
-2. Lecture Room (2)  
-3. Lecture Name (3)  
-4. Lecture Format[Lecture, Problem Base Learning, Tutoring] (4)  
+* Start and End Time (1)  
+* Lecture Room (2)  
+* Lecture Name (3)  
+* Lecture Format[Lecture, Problem Base Learning, Tutoring] (4)  
 
--------------------------
-|    |                  |
--    |-------------------
-| (1)|                  |
--    |-------------------
-|    |                  |
------|-------------------
+### 2.3.2 Button
+Design will include later (todo Design required)  
+## 2.4 Library Seats  
+A block that displays popular library seats situation. The information for each library should be displayed inside a progress bar.  
+
+### 2.4.1 Progress bar(for each library)  
+This is used to tell user the number of empty seats. When it is full means there is no empty seats vice versa. The color of the bar represents the library congestion. The actual number should be displayed next to the bar. The user MAY press each progress bar if he/she wants to see more information to that library.   
+
+### 2.4.2 Color  
+
+* When the total amount of empty seats is over 70%,fill the bar with green.  
+* When the total amount of empty seats is less than 50%,fill the bar with yellow.  
+* When the total amount of empty seats is less than 30%,fill the bar with orange.
+* When the total amount of empty seats is less than 15%,fill the bar with red.  
+
+### 2.4.3 Number Display  
+The number displayed should be an integer. The display should ignore the decimal places.
+
+### 2.4.4 Library Displayed  
+
+* Main library
+* Science library
+* Student Centre(new)
+* IOE library
+* User may choose the library they want to display (todo need to discuss)
+
+### 2.4.5 Press progress bar  
+Jump to library seats page(todo Design will include later)
+
+
+
+
