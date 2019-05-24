@@ -70,17 +70,19 @@ It is REQUIRED that the scroll bar only moves when the user scrolls it.
 
 #### 2.3.1 Block
 
-This SHOULD include following information:
+Each block SHOULD include following information:
 
-1. Start and End Time.
-2. Event Location (Building, Room).
-3. Relevant Participant Names (Lecturer's name in case of a Lecture event).
+1. Start and End Times.
+2. Event Location(s) (Building, Room).
+3. Relevant Participant Name(s) (Lecturer's name in case of a Lecture event).
 4. Event Type, one of:
-   1. Lecture
+   1. Lecture 
    2. Problem-based Learning
-   3. Discussions
-   4. Tutorials
-   5. Exams
+   3. Discussion
+   4. Tutorial
+   5. Exam (Dependent on UCL API Functionalities)
+
+> TODO: Does UCL Timetable include exam timetables?
 
 #### 2.3.2 Button
 
