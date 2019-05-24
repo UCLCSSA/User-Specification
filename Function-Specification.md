@@ -3,7 +3,7 @@
 ## Terminology
 
 This specification uses the terms **MUST, SHOULD, MAY, MUST NOT, MAY NOT, SHOULD
-NOT, RECOMMENDED, OPTIONAL** as defined in [RFC2119](https://tools.ietf.org/html/rfc2119).
+NOT, RECOMMENDED, OPTIONAL, REQUIRED** as defined in [RFC2119](https://tools.ietf.org/html/rfc2119).
 
 We use the following terminology to specify the user states:
 
@@ -145,4 +145,57 @@ Jump to library seats page.
 
 ### 2. Post Page  
 
+#### 2.1 Post Horizontal Slider  
 
+User MAY post information of different categories.  
+This MUST includes:  
+
+- 房屋交友  
+- 二手闲置  
+- 提问回答  
+- 失物招领  
+
+
+##### 2.1.1 Interact with user  
+
+- It is REQUIRED that the horizontal slider only moves when the user scrolls it.
+
+- When user press specific section, that section should be highlighted as shown in the design and the posts displayed should be filtered.
+
+#### 2.2 Post Block
+
+Each *Post* inside post page will be displayed as a post block. A post block should include following elements.
+
+- Time
+- Title
+- Brief content
+- User Information
+- Photo
+
+##### 2.2.1 Time  
+
+LOCAL TIMEZONE  
+
+##### 2.2.2 Title  
+
+>TODO: Discuss how many characters *Title* should include?  
+
+##### 2.2.3 Brief Content  
+
+>TODO: Discuss how many characters *Brief Content* should include?  
+
+##### 2.2.4 Photo  
+
+No more than 3 photos.  
+
+##### 2.2.5 User Information  
+
+User Profile and id.  
+
+#### 3.3 Post Button[WECHAT LOGIN REQUIRED]
+
+>TODO: Pending design.  
+
+
+
+**This message is for testing the format of commit content** 
