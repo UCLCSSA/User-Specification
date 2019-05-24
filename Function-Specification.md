@@ -192,7 +192,7 @@ No more than 3 photos.
 
 User Profile and ID.  
 
-#### 3.3 Post Button[WECHAT LOGIN REQUIRED]
+#### 2.3 Post Button[WECHAT LOGIN REQUIRED]
 
 >TODO: Pending design.  
 
