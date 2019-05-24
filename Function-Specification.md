@@ -16,6 +16,7 @@ We use the following terminology to specify the user states:
 | **LOCAL TIMEZONE** | The timezone where UCL is located. Note the the timezone needs to take into account Daylight Savings adjustments. |
 | **LOCAL CITY**     | London.                                                                                                           |
 | **CSSA**           | UCL Chinese Students and Scholars Association.                                                                    |
+| **Admin**          | Administrator                                                                                                     |
 
 ## 2. Functional Requirements
 
