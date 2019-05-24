@@ -100,7 +100,7 @@ Each block SHOULD include following information:
 
 - A *progress bar* represents the number of empty seats.
   - When there are no seats:
-    - Progress bar is empty.
+    - Progress bar is full.
   - When there are available seats:
     - Progress bar shows proportion of available seats versus total seats.
   - The color of the bar represents how busy each library is.
