@@ -37,27 +37,27 @@ Required elements:
 - Lowest Temperature (Degrees Celsius)
 - Recommended clothing
 
-#### 1.1.2 Events
+#### 1.2 Events
 
 Events are displayed inside a *horizontal slider*:
 
 - Auto-scroll is enabled on the slider, with animation time set to 2 seconds.
 
-##### 1.1.2.1 Content
+##### 1.2.1 Content
 
 - Events cards MUST contain CSSA activities.
 - MAY contain other information.
 
-##### 1.1.2.2 Horizontal Slider
+##### 1.2.2 Horizontal Slider
 
 - Horizontal Slider SHOULD display preview images.
 - Each preview image represents an article.
 
-##### 1.1.2.3 When User tap picture on the horizontal slider
+##### 1.2.3 When User tap picture on the horizontal slider
 
 Full news article SHOULD be displayed on a new page.
 
-#### 1.1.3 Personal Timetable
+#### 1.3 Personal Timetable
 
 > TODO: What happens if the user is not yet logged in?
 
@@ -71,7 +71,7 @@ outlook calendar events).
 
 It is REQUIRED that the horizontal slider only moves when the user scrolls it.
 
-##### 1.1.3.1 Block
+##### 1.3.1 Block
 
 Each block SHOULD include following information:
 
@@ -87,16 +87,16 @@ Each block SHOULD include following information:
 
 > TODO: Does UCL Timetable include exam timetables?   
 
-##### 1.1.3.2 Button
+##### 1.3.2 Button
 
 > TODO: Pending design.
 
-#### 1.1.4 Library Seats
+#### 1.4 Library Seats
 
 - A block that displays available seats for each library.
 - The information for each library MUST be displayed as *progress bars*.
 
-##### 1.1.4.1 Progress bar
+##### 1.4.1 Progress bar
 
 - A *progress bar* represents the number of empty seats.
   - When there are no seats:
@@ -108,7 +108,7 @@ Each block SHOULD include following information:
   - The user MAY press each progress bar if he/she wants to see more information
    about the corresponding library.
 
-##### 1.1.4.2 Color
+##### 1.4.2 Color
 
 The color of the progress bar MUST indicate the availability of each library:
 
@@ -119,12 +119,12 @@ The color of the progress bar MUST indicate the availability of each library:
 | ORANGE :large_orange_diamond: | Proportion of empty seats is less than 30%.         |
 | RED :red_circle:              | Proportion of empty seats is less than 15%.         |
 
-##### 1.1.4.3 Number Display
+##### 1.4.3 Number Display
 
 - The proportion of available seats and the number of available seats MUST be
 displayed.
 
-##### 1.1.4.4 Library Displayed
+##### 1.4.4 Library Displayed
 
 The most popular libraries or study facilities that MUST be displayed:
 
@@ -135,7 +135,7 @@ The most popular libraries or study facilities that MUST be displayed:
 
 The user SHOULD be able to choose his/her favorite study facility (i.e. pin it).
 
-##### 1.1.4.5 Tapping progress bar
+##### 1.4.5 Tapping progress bar
 
 Jump to library seats page.
 
