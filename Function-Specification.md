@@ -146,6 +146,8 @@ Jump to library seats page.
 
 ### 2. Post Page  
 
+![Post Page Screenshot 1](img/post-page-1.png)
+
 #### 2.1 Post Horizontal Slider  
 
 User MAY post information of different categories.  
@@ -198,6 +200,8 @@ User Profile and ID.
 >TODO: Pending design.    
 
 ### 3. Restaurant Page  
+
+![Restaurant Page Screenshot 1](img/restaurant-page-1.png)
 
 #### 3.1 CSSA CARD(Wechat Login)
 
