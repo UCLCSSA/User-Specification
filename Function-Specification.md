@@ -85,7 +85,7 @@ Each block SHOULD include following information:
    4. Tutorial
    5. Exam (Dependent on UCL API Functionalities)
 
-> TODO: Does UCL Timetable include exam timetables?
+> TODO: Does UCL Timetable include exam timetables?   
 
 #### 2.3.2 Button
 
@@ -140,3 +140,7 @@ The user SHOULD be able to choose his/her favorite study facility (i.e. pin it).
 Jump to library seats page.
 
 > TODO: Jump to library seats page.
+> TODO: Pending Design.
+
+
+
