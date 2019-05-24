@@ -21,6 +21,8 @@ We use the following terminology to specify the user states:
 
 ### 2.1 Main Page
 
+![Main Page Screenshot 1](img/main-page-1.png)
+
 #### 2.1.1 Weather and Date
 
 This part should contain two parts Date and the Weather. We use LOCAL TIMEZONE and LOCAL CITY.
@@ -34,23 +36,23 @@ Required elements:
 - Lowest Temperature (Degrees Celsius)
 - Recommended clothing
 
-### 2.2 News
+### 2.2 Events
 
-News are displayed inside a *scroll bar*:
+Events are displayed inside a *horizontal slider*:
 
-- Every two seconds, a news card is scrolled to the left.
+- Auto-scroll is enabled on the slider, with animation time set to 2 seconds.
 
 #### 2.2.1 Content
 
-- News cards MUST contain CSSA activities.
+- Events cards MUST contain CSSA activities.
 - MAY contain other information.
 
-#### 2.2.2 Scroll Bar
+#### 2.2.2 Horizontal Slider
 
-- Scroll Bar SHOULD display preview images.
+- Horizontal Slider SHOULD display preview images.
 - Each preview image represents an article.
 
-#### 2.2.3 When User press picture on the scroll bar
+#### 2.2.3 When User tap picture on the horizontal slider
 
 Full news article SHOULD be displayed on a new page.
 
@@ -60,13 +62,13 @@ Full news article SHOULD be displayed on a new page.
 
 The personal time table contains two components:
 
-1. Scroll bar which displays today's lecture(s).
+1. Horizontal slider which displays today's lecture(s).
 2. *Show Full Timetable* button ("显示完整课表").
 
 Each lecture is displayed inside a *block* which represents a time slot (c.f.
 outlook calendar events).
 
-It is REQUIRED that the scroll bar only moves when the user scrolls it.
+It is REQUIRED that the horizontal slider only moves when the user scrolls it.
 
 #### 2.3.1 Block
 
@@ -132,7 +134,7 @@ The most popular libraries or study facilities that MUST be displayed:
 
 The user SHOULD be able to choose his/her favorite study facility (i.e. pin it).
 
-#### 2.4.5 Press progress bar
+#### 2.4.5 Tapping progress bar
 
 Jump to library seats page.
 
