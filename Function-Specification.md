@@ -213,3 +213,11 @@ Restaurant Block should include following elements
 
 - Name of restaurant
 - Photo of restauran
+
+#### 3.3 Restaurant Filter 
+
+>TODO: Pending design.
+
+#### 3.4 Restaurant Search   
+
+>TODO: Pending design.  
