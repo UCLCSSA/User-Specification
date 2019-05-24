@@ -128,8 +128,7 @@ The most popular libraries or study facilities that MUST be displayed:
 - Student Centre
 - IOE library
 
-> TODO: Should the user choose which library he/she needs to display?
-> Should each library be available?
+The user SHOULD be able to choose his/her favorite study facility (i.e. pin it).
 
 #### 2.4.5 Press progress bar
 
