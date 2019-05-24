@@ -16,7 +16,8 @@ We use the following terminology to specify the user states:
 | **LOCAL TIMEZONE** | The timezone where UCL is located. Note the the timezone needs to take into account Daylight Savings adjustments. |
 | **LOCAL CITY**     | London.                                                                                                           |
 | **CSSA**           | UCL Chinese Students and Scholars Association.                                                                    |
-| **Admin**          | Administrator                                                                                                     |
+| **ADMIN**          | Administrator                                                                                                     |
+| **CSSA-CARD**      | Discount card published by UCL CSSA.                                                                              | 
 
 ## Functional Requirements
 
@@ -194,6 +195,17 @@ User Profile and ID.
 
 #### 2.3 Post Button[WECHAT LOGIN REQUIRED]
 
->TODO: Pending design.  
+>TODO: Pending design.    
 
+### 3. Restaurant Page  
 
+#### 3.1 CSSA CARD(Wechat Login)
+
+When pressed, display the CSSA-CARD.  
+
+#### 3.2 Restaurant Block  
+
+Restaurant Block should include following elements  
+
+- Name of restaurant
+- Photo of restauran
