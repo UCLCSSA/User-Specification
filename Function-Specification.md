@@ -190,12 +190,10 @@ No more than 3 photos.
 
 ##### 2.2.5 User Information  
 
-User Profile and id.  
+User Profile and ID.  
 
 #### 3.3 Post Button[WECHAT LOGIN REQUIRED]
 
 >TODO: Pending design.  
 
 
-
-**This message is for testing the format of commit content** 
