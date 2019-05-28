@@ -169,7 +169,7 @@ The categories MUST include:
 
 #### 2.2 Post Block
 
-Each *Post* inside post page will be displayed as a post block. A post block should include following elements.
+Each *post* inside each category page SHALL be displayed as a post block. A *post block* should include the following elements:
 
 - Time
 - Title
