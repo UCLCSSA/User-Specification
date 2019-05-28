@@ -191,6 +191,7 @@ LOCAL TIMEZONE
 
 ##### 2.2.4 Photo  
 
+>TODO: Discuss photo size and other photo-related specifications.
 No more than 3 photos.  
 
 ##### 2.2.5 User Information  
