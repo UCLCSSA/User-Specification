@@ -3,7 +3,7 @@
 ## Terminology
 
 This specification uses the terms **MUST, SHOULD, MAY, MUST NOT, MAY NOT, SHOULD
-NOT, RECOMMENDED, OPTIONAL, REQUIRED** as defined in [RFC2119](https://tools.ietf.org/html/rfc2119).
+NOT, RECOMMENDED, OPTIONAL, REQUIRED, SHALL** as defined in [RFC2119](https://tools.ietf.org/html/rfc2119).
 
 We use the following terminology to specify the user states:
 
