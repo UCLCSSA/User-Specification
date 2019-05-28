@@ -1,9 +1,9 @@
 # UCLCSSA WeChat App Functional Specification
 
-## 1. Terminology
+## Terminology
 
 This specification uses the terms **MUST, SHOULD, MAY, MUST NOT, MAY NOT, SHOULD
-NOT, RECOMMENDED, OPTIONAL** as defined in [RFC2119](https://tools.ietf.org/html/rfc2119).
+NOT, RECOMMENDED, OPTIONAL, REQUIRED, SHALL** as defined in [RFC2119](https://tools.ietf.org/html/rfc2119).
 
 We use the following terminology to specify the user states:
 
@@ -16,18 +16,22 @@ We use the following terminology to specify the user states:
 | **LOCAL TIMEZONE** | The timezone where UCL is located. Note the the timezone needs to take into account Daylight Savings adjustments. |
 | **LOCAL CITY**     | London.                                                                                                           |
 | **CSSA**           | UCL Chinese Students and Scholars Association.                                                                    |
+| **ADMIN**          | Administrator                                                                                                     |
+| **CSSA-CARD**      | Discount card published by UCL CSSA.                                                                              | 
 
-## 2. Functional Requirements
+## Functional Requirements
 
-### 2.1 Main Page
+### 1. Main Page
 
 ![Main Page Screenshot 1](img/main-page-1.png)
 
-#### 2.1.1 Weather and Date
+#### 1.1 Weather and Date
 
-This part should contain two parts Date and the Weather. We use LOCAL TIMEZONE and LOCAL CITY.
+This part should contain:
+1. Date. Use LOCAL TIMEZONE.
+2. Weather. Use weather for LOCAL CITY.
 
-##### 2.1.1.1 Weather Description
+##### 1.1.1 Weather Description
 
 Required elements:
 
@@ -36,27 +40,27 @@ Required elements:
 - Lowest Temperature (Degrees Celsius)
 - Recommended clothing
 
-### 2.2 Events
+#### 1.2 Events
 
 Events are displayed inside a *horizontal slider*:
 
 - Auto-scroll is enabled on the slider, with animation time set to 2 seconds.
 
-#### 2.2.1 Content
+##### 1.2.1 Content
 
 - Events cards MUST contain CSSA activities.
 - MAY contain other information.
 
-#### 2.2.2 Horizontal Slider
+##### 1.2.2 Horizontal Slider
 
 - Horizontal Slider SHOULD display preview images.
 - Each preview image represents an article.
 
-#### 2.2.3 When User tap picture on the horizontal slider
+##### 1.2.3 When User tap picture on the horizontal slider
 
 Full news article SHOULD be displayed on a new page.
 
-### 2.3 Personal Timetable
+#### 1.3 Personal Timetable
 
 > TODO: What happens if the user is not yet logged in?
 
@@ -70,7 +74,7 @@ outlook calendar events).
 
 It is REQUIRED that the horizontal slider only moves when the user scrolls it.
 
-#### 2.3.1 Block
+##### 1.3.1 Block
 
 Each block SHOULD include following information:
 
@@ -82,24 +86,21 @@ Each block SHOULD include following information:
    2. Problem-based Learning
    3. Discussion
    4. Tutorial
-   5. Exam (Dependent on UCL API Functionalities)
 
-> TODO: Does UCL Timetable include exam timetables?
-
-#### 2.3.2 Button
+##### 1.3.2 Button
 
 > TODO: Pending design.
 
-### 2.4 Library Seats
+#### 1.4 Library Seats
 
 - A block that displays available seats for each library.
 - The information for each library MUST be displayed as *progress bars*.
 
-#### 2.4.1 Progress bar
+##### 1.4.1 Progress bar
 
 - A *progress bar* represents the number of empty seats.
   - When there are no seats:
-    - Progress bar is empty.
+    - Progress bar is full.
   - When there are available seats:
     - Progress bar shows proportion of available seats versus total seats.
   - The color of the bar represents how busy each library is.
@@ -107,7 +108,7 @@ Each block SHOULD include following information:
   - The user MAY press each progress bar if he/she wants to see more information
    about the corresponding library.
 
-#### 2.4.2 Color
+##### 1.4.2 Color
 
 The color of the progress bar MUST indicate the availability of each library:
 
@@ -118,12 +119,12 @@ The color of the progress bar MUST indicate the availability of each library:
 | ORANGE :large_orange_diamond: | Proportion of empty seats is less than 30%.         |
 | RED :red_circle:              | Proportion of empty seats is less than 15%.         |
 
-#### 2.4.3 Number Display
+##### 1.4.3 Number Display
 
 - The proportion of available seats and the number of available seats MUST be
 displayed.
 
-#### 2.4.4 Library Displayed
+##### 1.4.4 Library Displayed
 
 The most popular libraries or study facilities that MUST be displayed:
 
@@ -134,8 +135,93 @@ The most popular libraries or study facilities that MUST be displayed:
 
 The user SHOULD be able to choose his/her favorite study facility (i.e. pin it).
 
-#### 2.4.5 Tapping progress bar
+##### 1.4.5 Tapping progress bar
 
 Jump to library seats page.
 
 > TODO: Jump to library seats page.
+> TODO: Pending Design.
+
+
+### 2. Post Page  
+
+![Post Page Screenshot 1](img/post-page-1.png)
+
+#### 2.1 Post Horizontal Slider  
+
+User MAY post information of different categories.  
+The categories MUST include:
+
+- 房屋出租
+- 二手闲置  
+- 提问回答  
+- 失物招领  
+
+
+##### 2.1.1 Interact with user  
+
+- It is REQUIRED that the horizontal slider only moves when the user scrolls it.
+
+- When user press specific section, that section should be highlighted as shown in the design and the posts displayed should be filtered.
+
+#### 2.2 Post Block
+
+Each *post* inside each category page SHALL be displayed as a post block. A *post block* should include the following elements:
+
+- Time
+- Title
+- Brief content
+- User Information
+- Photo
+
+##### 2.2.1 Time  
+
+LOCAL TIMEZONE  
+
+##### 2.2.2 Title  
+
+>TODO: Discuss how many characters *Title* should include?  
+
+##### 2.2.3 Brief Content  
+
+>TODO: Discuss how many characters *Brief Content* should include?  
+
+##### 2.2.4 Photo  
+
+>TODO: Discuss photo size and other photo-related specifications.
+
+No more than 3 photos.  
+
+##### 2.2.5 User Information  
+
+User Profile and ID.  
+
+#### 2.3 Post Button[WECHAT LOGIN REQUIRED]
+
+>TODO: Pending design.    
+
+### 3. Restaurant Page  
+
+![Restaurant Page Screenshot 1](img/restaurant-page-1.png)
+
+#### 3.1 CSSA CARD(Wechat Login)
+
+When pressed, display the CSSA-CARD.  
+
+#### 3.2 Restaurant Block  
+
+Restaurant Block should include following elements  
+
+- Name of restaurant
+- Photo of restaurant
+
+#### 3.3 Restaurant Filter 
+
+>TODO: Pending design.
+
+#### 3.4 Restaurant Search   
+
+>TODO: Pending design.  
+
+### 4. MyUCL Page  
+ 
