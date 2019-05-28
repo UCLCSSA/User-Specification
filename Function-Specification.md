@@ -214,7 +214,7 @@ When pressed, display the CSSA-CARD.
 Restaurant Block should include following elements  
 
 - Name of restaurant
-- Photo of restauran
+- Photo of restaurant
 
 #### 3.3 Restaurant Filter 
 
