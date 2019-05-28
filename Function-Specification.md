@@ -153,7 +153,7 @@ Jump to library seats page.
 #### 2.1 Post Horizontal Slider  
 
 User MAY post information of different categories.  
-This MUST includes:  
+The categories MUST include:
 
 - 房屋交友  
 - 二手闲置  
