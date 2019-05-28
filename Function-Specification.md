@@ -155,7 +155,7 @@ Jump to library seats page.
 User MAY post information of different categories.  
 The categories MUST include:
 
-- 房屋交友  
+- 房屋出租
 - 二手闲置  
 - 提问回答  
 - 失物招领  
