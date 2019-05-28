@@ -86,9 +86,6 @@ Each block SHOULD include following information:
    2. Problem-based Learning
    3. Discussion
    4. Tutorial
-   5. Exam (Dependent on UCL API Functionalities)
-
-> TODO: Does UCL Timetable include exam timetables?   
 
 ##### 1.3.2 Button
 
