@@ -27,7 +27,9 @@ We use the following terminology to specify the user states:
 
 #### 1.1 Weather and Date
 
-This part should contain two parts Date and the Weather. We use LOCAL TIMEZONE and LOCAL CITY.
+This part should contain:
+1. Date. Use LOCAL TIMEZONE.
+2. Weather. Use weather for LOCAL CITY.
 
 ##### 1.1.1 Weather Description
 
